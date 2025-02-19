@@ -1,4 +1,4 @@
-package com.nyheng;
+package com.Project;
 
 import java.util.Scanner;
 
@@ -39,11 +39,14 @@ public class ANSI {
             System.out.println("7. Strikethrough");
             System.out.println("8. Heading 1");
             System.out.println("9. Heading 2");
-            System.out.println("10. Exit");
+            System.out.println("10. Bold and Italic");
+            System.out.println("11. Exit");
 
             //Get user's choice
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
+
+            formattedText = userInput; // Reset the formatted text to the user's input
             //Apply formatting based on user's choice
             switch (choice) {
                 case 1:
@@ -66,7 +69,6 @@ public class ANSI {
 
                     int colorChoice = scanner.nextInt();
                     scanner.nextLine(); // Consume newline
-
                     switch (colorChoice) {
                         case 1:
                             formattedText = "\u001B[31m" + userInput + "\u001B[0m";
@@ -115,6 +117,9 @@ public class ANSI {
                     formattedText = "## " + formattedText;// Won't change the text size in the terminal but will be displayed as a heading in markdown.
                     break;
                 case 10:
+                    formattedText = "\u001B[1m" + "\u001B[3m" + formattedText + "\u001B[0m";
+                    break;
+                case 11:
                     continueFormatting = false;
                     break;
                 default:
