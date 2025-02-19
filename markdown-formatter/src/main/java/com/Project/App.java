@@ -1,4 +1,12 @@
 package com.nyheng;
+<<<<<<< HEAD:markdown-formatter/src/main/java/com/nyheng/App.java
+=======
+//
+import com.vladsch.flexmark.html.HtmlRenderer;
+import com.vladsch.flexmark.parser.Parser;
+import com.vladsch.flexmark.util.ast.Node;
+import java.util.Scanner;
+>>>>>>> 17a12940b17d3dde4859ce743a850a486456f8b9:markdown-formatter/src/main/java/com/Project/App.java
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
