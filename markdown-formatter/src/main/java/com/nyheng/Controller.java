@@ -36,8 +36,10 @@ public class Controller {
     }
 
     private String convertMarkdownToHtml(String markdown) {
+        // setting
         Parser parser = Parser.builder().build();
         HtmlRenderer renderer = HtmlRenderer.builder().build();
+        // processing
         Node document = parser.parse(markdown);
         return renderer.render(document);
     }

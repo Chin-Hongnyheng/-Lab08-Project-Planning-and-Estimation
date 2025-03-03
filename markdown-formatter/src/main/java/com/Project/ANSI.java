@@ -6,18 +6,30 @@ public class ANSI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Display welcome message
-        System.out.println(" __       __            __                                                      __                     __       __                      __              __                                          ________                                            __     __      __                            ________                    __            __ \r\n" + //
-                        "|  \\  _  |  \\          |  \\                                                    |  \\                   |  \\     /  \\                    |  \\            |  \\                                        |        \\                                          |  \\   |  \\    |  \\                          |        \\                  |  \\          |  \\\r\n" + //
-                        "| $$ / \\ | $$  ______  | $$  _______   ______   ______ ____    ______         _| $$_    ______        | $$\\   /  $$  ______    ______  | $$   __   ____| $$  ______   __   __   __  _______        | $$$$$$$$______    ______   ______ ____    ______ _| $$_ _| $$_    \\$$ _______    ______         \\$$$$$$$$______    ______  | $$  _______ | $$\r\n" + //
-                        "| $$/  $\\| $$ /      \\ | $$ /       \\ /      \\ |      \\    \\  /      \\       |   $$ \\  /      \\       | $$$\\ /  $$$ |      \\  /      \\ | $$  /  \\ /      $$ /      \\ |  \\ |  \\ |  \\|       \\       | $$__   /      \\  /      \\ |      \\    \\  |      \\   $$ \\   $$ \\  |  \\|       \\  /      \\          | $$  /      \\  /      \\ | $$ /       \\| $$\r\n" + //
-                        "| $$  $$$\\ $$|  $$$$$$\\| $$|  $$$$$$$|  $$$$$$\\| $$$$$$\\$$$$\\|  $$$$$$\\       \\$$$$$$ |  $$$$$$\\      | $$$$\\  $$$$  \\$$$$$$\\|  $$$$$$\\| $$_/  $$|  $$$$$$$|  $$$$$$\\| $$ | $$ | $$| $$$$$$$\\      | $$  \\ |  $$$$$$\\|  $$$$$$\\| $$$$$$\\$$$$\\  \\$$$$$$\\$$$$$$\\$$$$$$  | $$| $$$$$$$\\|  $$$$$$\\         | $$ |  $$$$$$\\|  $$$$$$\\| $$|  $$$$$$$| $$\r\n" + //
-                        "| $$ $$\\$$\\$$| $$    $$| $$| $$      | $$  | $$| $$ | $$ | $$| $$    $$        | $$ __| $$  | $$      | $$\\$$ $$ $$ /      $$| $$   \\$$| $$   $$ | $$  | $$| $$  | $$| $$ | $$ | $$| $$  | $$      | $$$$$ | $$  | $$| $$   \\$$| $$ | $$ | $$ /      $$| $$ __| $$ __ | $$| $$  | $$| $$  | $$         | $$ | $$  | $$| $$  | $$| $$ \\$$    \\  \\$$\r\n" + //
-                        "| $$$$  \\$$$$| $$$$$$$$| $$| $$_____ | $$__/ $$| $$ | $$ | $$| $$$$$$$$        | $$|  \\ $$__/ $$      | $$ \\$$$| $$|  $$$$$$$| $$      | $$$$$$\\ | $$__| $$| $$__/ $$| $$_/ $$_/ $$| $$  | $$      | $$    | $$__/ $$| $$      | $$ | $$ | $$|  $$$$$$$| $$|  \\ $$|  \\| $$| $$  | $$| $$__| $$         | $$ | $$__/ $$| $$__/ $$| $$ _\\$$$$$$\\ __ \r\n" + //
-                        "| $$$    \\$$$ \\$$     \\| $$ \\$$     \\ \\$$    $$| $$ | $$ | $$ \\$$     \\         \\$$  $$\\$$    $$      | $$  \\$ | $$ \\$$    $$| $$      | $$  \\$$\\ \\$$    $$ \\$$    $$ \\$$   $$   $$| $$  | $$      | $$     \\$$    $$| $$      | $$ | $$ | $$ \\$$    $$ \\$$  $$\\$$  $$| $$| $$  | $$ \\$$    $$         | $$  \\$$    $$ \\$$    $$| $$|       $$|  \\\r\n" + //
-                        " \\$$      \\$$  \\$$$$$$$ \\$$  \\$$$$$$$  \\$$$$$$  \\$$  \\$$  \\$$  \\$$$$$$$          \\$$$$  \\$$$$$$        \\$$      \\$$  \\$$$$$$$ \\$$       \\$$   \\$$  \\$$$$$$$  \\$$$$$$   \\$$$$$\\$$$$  \\$$   \\$$       \\$$      \\$$$$$$  \\$$       \\$$  \\$$  \\$$  \\$$$$$$$  \\$$$$  \\$$$$  \\$$ \\$$   \\$$ _\\$$$$$$$          \\$$   \\$$$$$$   \\$$$$$$  \\$$ \\$$$$$$$  \\$$\r\n" + //
-                        "                                                                                                                                                                                                                                                                                    |  \\__| $$                                                    \r\n" + //
-                        "                                                                                                                                                                                                                                                                                     \\$$    $$                                                    \r\n" + //
+        // Display welcome message
+        System.out.println(
+                " __       __            __                                                      __                     __       __                      __              __                                          ________                                            __     __      __                            ________                    __            __ \r\n"
+                        + //
+                        "|  \\  _  |  \\          |  \\                                                    |  \\                   |  \\     /  \\                    |  \\            |  \\                                        |        \\                                          |  \\   |  \\    |  \\                          |        \\                  |  \\          |  \\\r\n"
+                        + //
+                        "| $$ / \\ | $$  ______  | $$  _______   ______   ______ ____    ______         _| $$_    ______        | $$\\   /  $$  ______    ______  | $$   __   ____| $$  ______   __   __   __  _______        | $$$$$$$$______    ______   ______ ____    ______ _| $$_ _| $$_    \\$$ _______    ______         \\$$$$$$$$______    ______  | $$  _______ | $$\r\n"
+                        + //
+                        "| $$/  $\\| $$ /      \\ | $$ /       \\ /      \\ |      \\    \\  /      \\       |   $$ \\  /      \\       | $$$\\ /  $$$ |      \\  /      \\ | $$  /  \\ /      $$ /      \\ |  \\ |  \\ |  \\|       \\       | $$__   /      \\  /      \\ |      \\    \\  |      \\   $$ \\   $$ \\  |  \\|       \\  /      \\          | $$  /      \\  /      \\ | $$ /       \\| $$\r\n"
+                        + //
+                        "| $$  $$$\\ $$|  $$$$$$\\| $$|  $$$$$$$|  $$$$$$\\| $$$$$$\\$$$$\\|  $$$$$$\\       \\$$$$$$ |  $$$$$$\\      | $$$$\\  $$$$  \\$$$$$$\\|  $$$$$$\\| $$_/  $$|  $$$$$$$|  $$$$$$\\| $$ | $$ | $$| $$$$$$$\\      | $$  \\ |  $$$$$$\\|  $$$$$$\\| $$$$$$\\$$$$\\  \\$$$$$$\\$$$$$$\\$$$$$$  | $$| $$$$$$$\\|  $$$$$$\\         | $$ |  $$$$$$\\|  $$$$$$\\| $$|  $$$$$$$| $$\r\n"
+                        + //
+                        "| $$ $$\\$$\\$$| $$    $$| $$| $$      | $$  | $$| $$ | $$ | $$| $$    $$        | $$ __| $$  | $$      | $$\\$$ $$ $$ /      $$| $$   \\$$| $$   $$ | $$  | $$| $$  | $$| $$ | $$ | $$| $$  | $$      | $$$$$ | $$  | $$| $$   \\$$| $$ | $$ | $$ /      $$| $$ __| $$ __ | $$| $$  | $$| $$  | $$         | $$ | $$  | $$| $$  | $$| $$ \\$$    \\  \\$$\r\n"
+                        + //
+                        "| $$$$  \\$$$$| $$$$$$$$| $$| $$_____ | $$__/ $$| $$ | $$ | $$| $$$$$$$$        | $$|  \\ $$__/ $$      | $$ \\$$$| $$|  $$$$$$$| $$      | $$$$$$\\ | $$__| $$| $$__/ $$| $$_/ $$_/ $$| $$  | $$      | $$    | $$__/ $$| $$      | $$ | $$ | $$|  $$$$$$$| $$|  \\ $$|  \\| $$| $$  | $$| $$__| $$         | $$ | $$__/ $$| $$__/ $$| $$ _\\$$$$$$\\ __ \r\n"
+                        + //
+                        "| $$$    \\$$$ \\$$     \\| $$ \\$$     \\ \\$$    $$| $$ | $$ | $$ \\$$     \\         \\$$  $$\\$$    $$      | $$  \\$ | $$ \\$$    $$| $$      | $$  \\$$\\ \\$$    $$ \\$$    $$ \\$$   $$   $$| $$  | $$      | $$     \\$$    $$| $$      | $$ | $$ | $$ \\$$    $$ \\$$  $$\\$$  $$| $$| $$  | $$ \\$$    $$         | $$  \\$$    $$ \\$$    $$| $$|       $$|  \\\r\n"
+                        + //
+                        " \\$$      \\$$  \\$$$$$$$ \\$$  \\$$$$$$$  \\$$$$$$  \\$$  \\$$  \\$$  \\$$$$$$$          \\$$$$  \\$$$$$$        \\$$      \\$$  \\$$$$$$$ \\$$       \\$$   \\$$  \\$$$$$$$  \\$$$$$$   \\$$$$$\\$$$$  \\$$   \\$$       \\$$      \\$$$$$$  \\$$       \\$$  \\$$  \\$$  \\$$$$$$$  \\$$$$  \\$$$$  \\$$ \\$$   \\$$ _\\$$$$$$$          \\$$   \\$$$$$$   \\$$$$$$  \\$$ \\$$$$$$$  \\$$\r\n"
+                        + //
+                        "                                                                                                                                                                                                                                                                                    |  \\__| $$                                                    \r\n"
+                        + //
+                        "                                                                                                                                                                                                                                                                                     \\$$    $$                                                    \r\n"
+                        + //
                         "                                                                                                                                                                                                                                                                                      \\$$$$$$                                                     ");
 
         System.out.print("Enter the text you want to format: ");
@@ -28,7 +40,7 @@ public class ANSI {
 
         // Loop to allow the user to format the text multiple times
         while (continueFormatting) {
-            //Display formatting options
+            // Display formatting options
             System.out.println("Choose a formatting option:");
             System.out.println("1. Bold");
             System.out.println("2. Italic");
@@ -42,12 +54,12 @@ public class ANSI {
             System.out.println("10. Bold and Italic");
             System.out.println("11. Exit");
 
-            //Get user's choice
+            // Get user's choice
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
 
             formattedText = userInput; // Reset the formatted text to the user's input
-            //Apply formatting based on user's choice
+            // Apply formatting based on user's choice
             switch (choice) {
                 case 1:
                     formattedText = "\u001B[1m" + formattedText + "\u001B[0m";
@@ -111,10 +123,12 @@ public class ANSI {
                     formattedText = "\u001B[9m" + formattedText + "\u001B[0m";
                     break;
                 case 8:
-                    formattedText = "# " + formattedText;// Won't change the text size in the terminal but will be displayed as a heading in markdown.
+                    formattedText = "# " + formattedText;// Won't change the text size in the terminal but will be
+                                                         // displayed as a heading in markdown.
                     break;
                 case 9:
-                    formattedText = "## " + formattedText;// Won't change the text size in the terminal but will be displayed as a heading in markdown.
+                    formattedText = "## " + formattedText;// Won't change the text size in the terminal but will be
+                                                          // displayed as a heading in markdown.
                     break;
                 case 10:
                     formattedText = "\u001B[1m" + "\u001B[3m" + formattedText + "\u001B[0m";
@@ -126,11 +140,13 @@ public class ANSI {
                     System.out.println("Invalid choice.");
                     System.out.print("Do you want to continue? (yes/no): ");
                     String response = scanner.nextLine(); // line reads the user's response.
-                    if (!response.equalsIgnoreCase("yes")) { // line checks if the user's response is not equal to "yes". If it is not equal to "yes", the program will stop.
+                    if (!response.equalsIgnoreCase("yes")) { // line checks if the user's response is not equal to
+                                                             // "yes". If it is not equal to "yes", the program will
+                                                             // stop.
                         continueFormatting = false;
                     }
             }
-            //Display the formatted text if continuing
+            // Display the formatted text if continuing
             if (continueFormatting) {
                 System.out.println("Formatted text: " + formattedText);
             }

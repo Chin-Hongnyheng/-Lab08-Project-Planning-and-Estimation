@@ -58,7 +58,19 @@
         <artifactId>javafx-web</artifactId>
         <version>23</version>
     </dependency>
-  </dependencies>
+    <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+    <dependency>
+        <groupId>com.mysql</groupId>
+        <artifactId>mysql-connector-j</artifactId>
+        <version>9.2.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>html2pdf</artifactId>
+        <version>4.0.0</version> <!-- Use the latest version -->
+    </dependency>
+
+</dependencies>
 
   <build>
     <plugins>

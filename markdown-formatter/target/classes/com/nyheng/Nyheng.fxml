@@ -8,12 +8,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.WebView?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nyheng.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" 
+xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nyheng.Controller">
    <left>
       <AnchorPane prefHeight="506.0" prefWidth="350.0" BorderPane.alignment="CENTER">
          <children>
-            <TextArea fx:id="text" prefHeight="245.0" prefWidth="278.0" promptText="Write your document" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
-            <!-- <Button text="Convert" onAction="#convertMarkdown" prefWidth="80.0" layoutY="250.0" layoutX="10.0"/> -->
+            <TextArea fx:id="text" prefHeight="245.0" prefWidth="278.0" promptText="Write your document" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" 
+            AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
          </children>
       </AnchorPane>
    </left>
@@ -36,3 +37,5 @@
       </AnchorPane>
    </right>
 </BorderPane>
+
+
