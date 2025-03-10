@@ -69,7 +69,11 @@
         <artifactId>html2pdf</artifactId>
         <version>4.0.0</version> <!-- Use the latest version -->
     </dependency>
-
+    <dependency>
+        <groupId>com.vladsch.flexmark</groupId>
+        <artifactId>flexmark-ext-tables</artifactId>
+        <version>0.62.2</version>
+    </dependency>
 </dependencies>
 
   <build>
