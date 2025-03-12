@@ -9,14 +9,14 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nyheng.ControllerV2">
    <children>
-      <Label layoutX="636.0" layoutY="31.0" prefHeight="70.0" prefWidth="282.0" text="Documentary">
+      <Label layoutX="636.0" layoutY="31.0" prefHeight="70.0" prefWidth="282.0" text="Welcome to Markdown Note-Taking App">
          <font>
             <Font name="Times New Roman Bold" size="48.0" />
          </font>
       </Label>
       <TextArea fx:id="text" layoutY="114.0" prefHeight="434.0" prefWidth="380.0" promptText="Write your text" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="800.0" AnchorPane.topAnchor="102.20000000000005" />
       <WebView fx:id="result" layoutX="426.0" layoutY="124.0" prefHeight="434.0" prefWidth="380.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="102.20000000000005" />
-      <Button fx:id="TxTfield" layoutX="592.0" layoutY="489.4" mnemonicParsing="false" onAction="#TxTOnAction" prefHeight="37.0" prefWidth="110.0" style="-fx-background-color: #00ff5e;" text="Save as TxT" textAlignment="CENTER" AnchorPane.bottomAnchor="20.0">
+      <Button fx:id="Mdfield" layoutX="592.0" layoutY="489.4" mnemonicParsing="false" onAction="#MdOnAction" prefHeight="37.0" prefWidth="110.0" style="-fx-background-color: #00ff5e;" text="Save as MD" textAlignment="CENTER" AnchorPane.bottomAnchor="20.0">
          <font>
             <Font name="Times New Roman Bold" size="12.0" />
          </font>

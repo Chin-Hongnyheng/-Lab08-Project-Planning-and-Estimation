@@ -33,7 +33,7 @@ public class ControllerV2 {
     private WebEngine webEngine;
 
     @FXML
-    private Button TxTfield;
+    private Button Mdfield;
 
     @FXML
     private Button PDFfield;
@@ -66,9 +66,10 @@ public class ControllerV2 {
         webEngine.loadContent(htmlOutput);
     }
 
-    public void TxTOnAction() {
+    public void MdOnAction() {
         FileChooser fileChooser = new FileChooser();
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Text Files", "*.txt"));
+        fileChooser.setInitialFileName("README.md");
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Markdown Files", "*.md"));
         File file = fileChooser.showSaveDialog(null);
         if (file != null) {
             try (FileWriter fw = new FileWriter(file)) {
